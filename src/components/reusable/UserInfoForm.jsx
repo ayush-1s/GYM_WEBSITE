@@ -1,7 +1,8 @@
-// UserInfoForm.jsx
+
+
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import styled from 'styled-components';
+import styled, { keyframes } from 'styled-components';
 
 const UserInfoForm = () => {
   const navigate = useNavigate();
@@ -26,7 +27,7 @@ const UserInfoForm = () => {
       address: '',
       message: 'Account created successfully!',
     });
-    navigate('/subscription-options'); // Navigate to subscription options page
+    navigate('/subscription-options', { state: { username: formData.username } }); // Pass username to subscription options page
   };
 
   return (
@@ -61,8 +62,16 @@ const UserInfoForm = () => {
   );
 };
 
-// Styled components...
-
+const slideInFromLeft = keyframes`
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+`;
 
 const Container = styled.div`
   display: flex;
@@ -78,7 +87,10 @@ const Form = styled.form`
   align-items: center;
   padding: 20px;
   background-color: white;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border: 2px solid #3cb371;
+  animation: ${slideInFromLeft} 1s ease-out;
+  transition: transform 1s;
 `;
 
 const Title = styled.h1`
@@ -89,16 +101,23 @@ const Input = styled.input`
   margin: 10px 0;
   padding: 10px;
   width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
 `;
 
 const Button = styled.button`
   margin: 10px 0;
   padding: 10px;
   width: 100%;
-  background-color: red;
+  background-color: #ff6347;
   color: white;
   border: none;
   cursor: pointer;
+  border-radius: 4px;
+
+  &:hover {
+    background-color: #ff4500;
+  }
 `;
 
 const Message = styled.p`
@@ -106,52 +125,4 @@ const Message = styled.p`
   color: green;
 `;
 
-
 export default UserInfoForm;
-
-
-// UserInfoForm.jsx
-// import React, { useState } from 'react';
-// import { useNavigate } from 'react-router-dom';
-
-// const UserInfoForm = () => {
-//   const navigate = useNavigate();
-//   const [formData, setFormData] = useState({
-//     username: '',
-//     phone: '',
-//     address: '',
-//     message: '',
-//   });
-
-//   const handleChange = (e) => {
-//     const { name, value } = e.target;
-//     setFormData({ ...formData, [name]: value });
-//   };
-
-//   const handleSubmit = (e) => {
-//     e.preventDefault();
-//     console.log('Account created:', formData);
-//     setFormData({
-//       username: '',
-//       phone: '',
-//       address: '',
-//       message: 'Account created successfully!',
-//     });
-//     navigate('/subscription-options');
-//   };
-
-//   return (
-//     <div>
-//       <h1>User Information Form</h1>
-//       <form onSubmit={handleSubmit}>
-//         <input type="text" name="username" placeholder="Username" value={formData.username} onChange={handleChange} />
-//         <input type="text" name="phone" placeholder="Phone Number" value={formData.phone} onChange={handleChange} />
-//         <input type="text" name="address" placeholder="Address" value={formData.address} onChange={handleChange} />
-//         <button type="submit">Create Account</button>
-//         {formData.message && <p>{formData.message}</p>}
-//       </form>
-//     </div>
-//   );
-// };
-
-// export default UserInfoForm;

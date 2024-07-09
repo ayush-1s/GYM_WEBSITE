@@ -1,0 +1,191 @@
+@media (max-width: 1024px) {
+    .elementor-section.elementor-section-boxed>.elementor-container {
+        max-width: 1024px;
+    }
+}
+
+
+@media (max-width: 1024px) {
+    .elementor-section .elementor-container {
+        flex-wrap: wrap;
+    }
+}
+
+.elementor-section .elementor-container {
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}
+
+
+.elementor-10 .elementor-element.elementor-element-3942467.elementor-column.elementor-element[data-element_type=column]>.elementor-widget-wrap.elementor-element-populated {
+    align-content: center;
+    align-items: center;
+}
+
+
+.elementor-column-gap-default>.elementor-column>.elementor-element-populated {
+    justify-content: space-between;
+    padding: 10px;
+}
+body, fieldset, figure, h2, h3, h4, hr, html, iframe, legend, li, p, textarea, ul {
+    border: 0;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+    color: #4b4f58;
+}
+
+.elementor *, .elementor :after, .elementor :before {
+    box-sizing: border-box;
+}
+
+.elementor-10 .elementor-element.elementor-element-4684efa .elementor-button {
+    background-color: transparent;
+    background-image: linear-gradient(290deg, var(--e-global-color-primary) 0%, #c1a7e2 100%);
+}
+
+.ast-single-post .elementor-button-wrapper .elementor-button {
+    text-decoration: none;
+}
+
+body .elementor-button, body .elementor-button.elementor-size-sm {
+    padding-top: 15px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+}
+
+.ast-single-post .entry-content a {
+    text-decoration: underline;
+}
+
+.elementor-align-center .elementor-button {
+    width: auto;
+}
+
+.elementor-button-wrapper .elementor-button {
+    line-height: 1em;
+}
+
+
+
+.elementor-button-wrapper .elementor-button, .elementor-button-wrapper .elementor-button:visited {
+    color:blacks;
+}
+
+.elementor-button-wrapper .elementor-button {
+    border-color: var(--ast-global-color-0);
+    background-color: var(--ast-global-color-0);
+}
+.elementor-button-wrapper .elementor-button {
+    border-style: solid;
+    text-decoration: none;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-left-width: 0;
+    border-bottom-width: 0;
+}
+.elementor a {
+    box-shadow: none;
+    text-decoration: none;
+}
+
+.elementor-animation-grow {
+    transition-duration: .3s;
+    transition-property: transform;
+}
+
+.elementor *, .elementor :after, .elementor :before {
+    box-sizing: border-box;
+}
+
+.entry-content p {
+    margin-bottom: 1.6em;
+}
+
+.elementor-button span {
+    text-decoration: inherit;
+}
+
+.elementor-button-text {
+    display: inline-block;
+}
+
+.elementor *, .elementor :after, .elementor :before {
+    box-sizing: border-box;
+}
+
+.elementor-button-wrapper .elementor-button {
+    line-height: 1em;
+}
+
+.elementor-button {
+    display: inline-block;
+    line-height: 1;
+    background-color: #69727d;
+    font-size: 15px;
+    padding: 12px 24px;
+    border-radius: 3px;
+    color: #fff;
+    fill: #fff;
+    text-align: center;
+    transition: all .3s;
+}
+
+a:-webkit-any-link {
+    /* color: -webkit-link; */
+    cursor: pointer;
+}
+
+.elementor-element {
+    --widgets-spacing: 20px 20px;
+}
+
+.elementor-element, .elementor-lightbox {
+    --swiper-theme-color: #000;
+    --swiper-navigation-size: 44px;
+    --swiper-pagination-bullet-size: 6px;
+    --swiper-pagination-bullet-horizontal-gap: 6px;
+}
+
+.elementor-element {
+    --flex-direction: initial;
+    --flex-wrap: initial;
+    --justify-content: initial;
+    --align-items: initial;
+    --align-content: initial;
+    --gap: initial;
+    --flex-basis: initial;
+    --flex-grow: initial;
+    --flex-shrink: initial;
+    --order: initial;
+    --align-self: initial;
+    flex-basis: var(--flex-basis);
+    flex-grow: var(--flex-grow);
+    flex-shrink: var(--flex-shrink);
+    order: var(--order);
+    align-self: var(--align-self);
+}
+
+body .elementor-button, body .elementor-button.elementor-size-sm {
+    padding-top: 15px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    background-color: #f913ceb5;
+}

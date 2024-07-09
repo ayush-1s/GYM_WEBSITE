@@ -1,0 +1,11 @@
+/* animations.css */
+.slide-appear {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  .slide-appear-active {
+    transform: translateX(0);
+    opacity: 1;
+    transition: transform 300ms, opacity 1000ms;
+  }
+  

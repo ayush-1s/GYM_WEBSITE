@@ -15,7 +15,7 @@ export const About = () => {
         <WithBarTittle title="About Our Gym" >About Our Gym</WithBarTittle>
         
         <H2>SAFE BODY BUILDING PROPER SOLUTIONS THAT SAVES OUR VALUABLE TIME!</H2>
-        <H3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit nemo, ipsa pariatur iusto, sequi tenetur explicabo nisi animi aliquid tempora eligendi doloribus nihil! Id vel placeat magnam voluptatum rerum dolor?</H3>
+        <H33>GYM STRATEGIES is a premier fitness center dedicated to providing top-notch workout programs and personalized coaching to help members achieve their fitness goals. Our state-of-the-art facilities and expert trainers ensure a comprehensive and effective fitness experience.</H33>
            
        
 
@@ -25,7 +25,14 @@ export const About = () => {
   );
 };
 
-
+const H33=styled.h4`
+width: 459px;
+font-family:Raleway;
+font-size:19px;
+line-height:1.1;
+font-weight:400;
+color:#000000c4;
+`
 
 const H2= styled.h1`
 align-self: flex-start;

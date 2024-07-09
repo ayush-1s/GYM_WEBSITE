@@ -8,7 +8,7 @@ import { SiOpenaigym } from 'react-icons/si';
   id:1,
   title:"QUALITY EQUIPMENT",
   icon:<CgGym/>,
-  description:"The sea friekjb,mbmnmnjkh kjkjklnklklkjkklklnnnjnkk.",
+  description:"Experience top-tier fitness with our state-of-the-art quality equipment designed.",
 
 },
 
@@ -17,7 +17,7 @@ import { SiOpenaigym } from 'react-icons/si';
   id:2,
   title:"HEALTH CARING",
   icon:<GiGymBag/>,
-  description:"The sea friekjb,mbmnmnjkh kjkjklnklklkjkklklnnnjnkk.",
+  description:"your well-being with personalized health care plans and expert guidance for a balanced, healthy lifestyle.",
 
 
 
@@ -30,7 +30,7 @@ import { SiOpenaigym } from 'react-icons/si';
   id:3,
   title:"GYM STRATEGIES",
   icon:<SiOpenaigym/>,
-  description:"The sea friekjb,mbmnmnjkh kjkjklnklklkjkklklnnnjnkk.",
+  description:"personalized training programs, meal plans, and expert guidance to help you achieve your health and wellness goals.",
 
 
 

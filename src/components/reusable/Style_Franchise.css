@@ -1,0 +1,211 @@
+
+@keyframes backgroundChange {
+    0% { background-color: #1d2d4f; }
+    33% { background-color: #2a3c63; }
+    66% { background-color: #354a76; }
+    100% { background-color: #1d2d4f; }
+}
+
+
+ .purchase-franchise-container {
+    
+    animation: backgroundChange 6s infinite;
+    font-family: Montserrat, Sans-serif;
+    color: black;
+  }
+   
+
+  /* Define the keyframes for the animation */
+  @keyframes slideIn {
+    from {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  /* Apply the animation to the specific container */
+  .purchase-franchise-container {
+    animation: slideIn 1s ease-out;
+  }
+  
+/* #mo_messageevf-2936-field_oU1wQrT21E-9{
+    width: 92%;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 16px;
+    background-color: #535bf247;
+    color: rgb(255, 91, 91);
+} */
+
+.btn_btn-default {
+    width: 100%;
+    background-color: #0170b9;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+.btn_btn-default:hover {
+    background-color: #005fa1;
+}
+
+#mo_messageevf-2936-field_oU1wQrT21E-9 {
+    width: 92%;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 16px;
+    background-color: #535bf247;
+    color: rgb(255, 91, 91);
+}
+
+h2 {
+    color: black;
+    border: 0;
+    font-size: 327%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    vertical-align: baseline;
+    transition: color 0.5s ease;
+}
+
+.pl {
+    text-align: center;
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5em;
+}
+
+.evf-container {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.5s ease;
+}
+
+.evf-field-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.evf-field {
+    position: relative;
+}
+
+.evf-field-label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    color: black;
+    transition: color 0.5s ease;
+}
+
+
+.evf-field-labell{
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    color:#fcdab7;
+  
+    transition: color 0.5s ease;
+}
+
+.input-text, .input-file, .textarea, .select2-hidden-accessible {
+    width: 94%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #fcdab7;
+    background-color: #1d2d4f;
+    color: #fcdab7;
+    transition: all 0.5s ease;
+}
+
+.input-text:focus, .input-file:focus, .textarea:focus, .select2-hidden-accessible:focus {
+    border-color: #0170b9;
+    background-color: #2a3c63;
+    color: #ffffff;
+}
+
+.btn_btn-default {
+    background-color: #0170b9;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+.btn_btn-default:hover {
+    background-color: #005fa1;
+}
+
+#evf-2936-field_4BkqkRo232-1-container,
+#evf-2936-field_OZPYM73H2g-2-container,
+#evf-2936-field_n507uMGOif-4-container,
+#evf-2936-field_oU1wQrT21E-9-container {
+    color: #fcdab7;
+    text-align: left;
+    font-size: 16px;
+    background-color: #1d2d4f;
+    border-style: solid;
+    border-color: #fcdab7;
+    border-width: 1px;
+    margin: 0 0 10px;
+    padding: 6px 12px;
+    transition: all 0.5s ease;
+}
+
+
+.evf-submit {
+    background-color: #0170b9;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+.evf-submit:hover {
+    background-color: #005fa1;
+}
+
+#root {
+    color: darkslategrey;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding-left: 0rem;
+    text-align: center;
+}
+
+select, option {
+    color: #fcdab7;
+    background-color: #1d2d4f;
+}
+
+option {
+    background-color: #1d2d4f;
+    color: #fcdab7;
+}
+
+select:focus, option:focus {
+    background-color: #2a3c63;
+    color: #ffffff;
+}
